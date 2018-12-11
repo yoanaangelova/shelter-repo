@@ -1,0 +1,28 @@
+.header-nav {
+    display: flex;
+    background-color: rgb(235, 235, 235);
+    justify-content: center;
+}
+
+.header-nav ul {
+    display: flex;
+    margin: 0;
+    padding: 1rem 0 1rem 0;
+}
+
+.header-nav ul li {
+    list-style-type: none;
+}
+
+.header-nav ul li a {
+    text-decoration: none;
+    color: rgb(112, 192, 212);
+    margin: 0 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.header-nav ul li a:hover {
+    border-bottom: 2px solid rgb(112, 192, 212); 
+}
+
